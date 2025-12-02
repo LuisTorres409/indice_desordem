@@ -354,7 +354,96 @@ opcao_periodo = st.sidebar.selectbox("Selecione o período", MESES_OPCOES)
 # FORM – AJUSTE DOS PESOS
 # ============================================================
 with st.form("frm"):
-    st.markdown("## Ajuste de Pesos (somar 1.0 é recomendado)")
+    st.markdown("## Ajuste de Pesos")
+
+    with st.expander("Entenda como funcionam as normalizações do índice"):
+        st.markdown("""
+        ### Entendendo os Tipos de Normalização do Índice
+
+        Para comparar bairros de forma justa, não basta olhar apenas para o número bruto de ocorrências.  
+        Bairros têm **tamanhos diferentes**, **populações diferentes**, **características internas diferentes**.  
+        Por isso usamos **cinco normalizações**, cada uma respondendo a uma pergunta específica.
+
+        ---
+
+        ## **1. Normalização Intra-Bairro (“Intra”)**
+        **O que ela mede?**  
+        Mostra **como cada tipo de ocorrência se destaca *dentro* do próprio bairro**.
+
+        **Como funciona?**  
+        Compara as categorias apenas dentro daquele bairro.  
+        A categoria mais frequente tende a ficar próxima de 1; a menos frequente tende a ficar próxima de 0.
+
+        **Para que serve?**  
+        Revela **o perfil interno** do bairro e quais problemas são mais representativos ali.
+
+        ---
+
+        ## **2. Normalização Global**
+        **O que ela mede?**  
+        Compara **todos os bairros entre si**, categoria por categoria.
+
+        **Como funciona?**  
+        Ajusta os valores de forma que bairros muito acima da média não distorçam a escala.  
+        Cada categoria é normalizada separadamente para permitir comparações equilibradas.
+
+        **Para que serve?**  
+        Mostra a **intensidade relativa** de cada categoria de ocorrência quando observada em toda a cidade.
+
+        ---
+
+        ## **3. Normalização por Área**
+        **O que ela mede?**  
+        A **quantidade de ocorrências por quilômetro quadrado**.
+
+        **Como funciona?**  
+        Divide as ocorrências pela área do bairro.  
+        Assim, bairros grandes não parecem ter mais ocorrências só por serem extensos.
+
+        **Para que serve?**  
+        Identificar onde os problemas são mais **concentrados espacialmente**.
+
+        ---
+
+        ## **4. Normalização por População**
+        **O que ela mede?**  
+        A quantidade de ocorrências **por habitante**.
+
+        **Como funciona?**  
+        Divide as ocorrências pela população total do bairro.
+
+        **Para que serve?**  
+        Revela se um bairro é proporcionalmente mais afetado **por pessoa**, indo além da contagem absoluta.
+
+        ---
+
+        ## **5. Normalização por Domicílios**
+        **O que ela mede?**  
+        A quantidade de ocorrências **por residência**.
+
+        **Como funciona?**  
+        Divide as ocorrências pelo número de domicílios do bairro.
+
+        **Para que serve?**  
+        Mostra o impacto **na malha residencial**, especialmente útil em áreas com grande densidade habitacional.
+
+        ---
+
+        ## **Resumo Geral**
+        Cada normalização responde a uma pergunta diferente:
+
+        | Normalização | Pergunta respondida |
+        |--------------|---------------------|
+        | **Intra** | O que mais pesa **dentro do bairro**? |
+        | **Global** | Como o bairro se compara com **o restante da cidade**? |
+        | **Área** | Onde os problemas são mais **concentrados por km²**? |
+        | **População** | Onde há mais impacto **por habitante**? |
+        | **Domicílios** | Onde há mais impacto **por residência**? |
+
+        Ao combinar essas visões, criamos um índice mais justo, completo e fiel à realidade urbana.
+            """)
+
+
     c1, c2 = st.columns(2)
 
     novos_1746, novos_dd = {}, {}
