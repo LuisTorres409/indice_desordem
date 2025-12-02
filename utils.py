@@ -516,7 +516,7 @@ def carregar_dados():
     if arquivos_1746_mensais:
         dfs = []
         for arq in arquivos_1746_mensais:
-            df_mes = pd.read_csv(arq)
+            df_mes = pd.read_csv(arq,low_memory=False)
             dfs.append(df_mes)
         df_1746 = pd.concat(dfs, ignore_index=True)
     else:
