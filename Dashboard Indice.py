@@ -269,6 +269,15 @@ def carregar_dados():
     bairros_m = bairros.to_crs(3857)
     bairros["area_km2"] = bairros_m.geometry.area / 1e6
 
+        # Mapeamento de nomes divergentes entre GeoJSON e Censo
+    mapa_equivalencia = {
+        "Imperial de São Cristóvão": "São Cristóvão"
+        # adicione outros aqui se aparecerem futuramente
+    }
+
+    # Padroniza os nomes do GeoJSON antes do merge
+    bairros["nome"] = bairros["nome"].replace(mapa_equivalencia)
+
     bairros = bairros.merge(
         df_censo[["nome","Total_de_pessoas_2022","Total_de_domicilios_2022"]],
         on="nome", how="left"
