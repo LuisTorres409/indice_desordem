@@ -365,7 +365,7 @@ def construir_indices(df_raw, col_categoria, pesos_custom, gdf_bairros, nome_col
 # ============================================================
 def gerar_mapa_indices(gdf, df_freq, titulo, palette, prefixo_total, categoria_cols, col_categoria, pesos_custom):
 
-    centro = gdf.geometry.unary_union.centroid
+    centro = gdf.geometry.union_all().centroid
     mapa = folium.Map(location=[centro.y, centro.x], zoom_start=11, tiles="CartoDB Positron")
 
     # mapeia pesos em upper (para lookup) E nome original para exibir
@@ -865,7 +865,7 @@ mapa_dd = gerar_mapa_indices(
 # ============================================================
 def gerar_mapa_combinado(gdf):
 
-    centro = gdf.geometry.unary_union.centroid
+    centro = gdf.geometry.union_all().centroid
     mapa = folium.Map(location=[centro.y, centro.x], zoom_start=11, tiles="CartoDB Positron")
 
     palette = ["#f2e5ff", "#d1b3ff", "#b080ff", "#8c4dff", "#661aff"]

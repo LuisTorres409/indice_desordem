@@ -118,7 +118,7 @@ for nome_perfil, pesos in perfis.items():
 # ============================================================
 # GERAR MAPA COM TODOS OS PERFIS COMO LAYERS
 # ============================================================
-centro = bairros.geometry.unary_union.centroid
+centro = bairros.geometry.union_all().centroid
 mapa = folium.Map(location=[centro.y, centro.x], zoom_start=11, tiles="CartoDB Positron")
 
 palette = ["#edf8fb", "#b3cde3", "#8c96c6", "#8856a7", "#810f7c"]
