@@ -1,0 +1,61 @@
+id_chamado,id_origem_ocorrencia,data_inicio,data_fim,id_bairro,id_territorialidade,id_logradouro,numero_logradouro,id_unidade_organizacional,nome_unidade_organizacional,id_unidade_organizacional_mae,unidade_organizacional_ouvidoria,categoria,id_tipo,tipo,id_subtipo,subtipo,status,longitude,latitude,data_alvo_finalizacao,data_alvo_diagnostico,data_real_diagnostico,tempo_prazo,prazo_unidade,prazo_tipo,dentro_prazo,situacao,tipo_situacao,justificativa_status,reclamacoes,descricao,extracted_at,updated_at,data_particao,ano_mes
+22697368,13,2025-12-01 00:12:14,2025-12-01 01:06:30,61,3,83147,166,70,GM-RIO - Guarda Municipal do Rio de Janeiro,26,false,Serviço,782,Estacionamento irregular,2966,Fiscalização de estacionamento irregular de veículo,Fechado com solução,-43.2697288,-22.8991449,2025-12-01 03:12:00,,,3,H,F,A Vencer (No Prazo),Encerrado,Atendido,,0,"Descrição do cidadão: Auto cor prata modelo sedan estacionado sobre a calçada, impedindo a passagem de pedestres, problema recorrente com o mesmo auto, favor verificar, obrigado. ANEXOS: https://datametricapcrj.zendesk.com/attachments/token/lNFYB0hHWrjKK1PnrGsWbJs0x/?name=carro_prata.png >> ",2025-12-01 05:07:22.860000+00:00,2025-12-01 01:06:57,2025-12-01,2025-12
+22697385,13,2025-12-01 00:39:49,2025-12-01 01:21:31,25,2,71282,14,70,GM-RIO - Guarda Municipal do Rio de Janeiro,26,false,Serviço,782,Estacionamento irregular,2966,Fiscalização de estacionamento irregular de veículo,Não constatado,-43.2007734,-22.9862043,2025-12-01 03:39:00,,,3,H,F,A Vencer (No Prazo),Encerrado,Não constatado,,0,Descrição do cidadão: Moto sobre a calçada. ANEXOS: https://datametricapcrj.zendesk.com/attachments/token/Di9oE5GRySXeBj4c54Sr5etI0/?name=20251201_002529.heic >> ,2025-12-01 05:07:22.860000+00:00,2025-12-01 01:22:05,2025-12-01,2025-12
+22697406,13,2025-12-01 01:25:42,,25,2,71282,14,70,GM-RIO - Guarda Municipal do Rio de Janeiro,26,false,Serviço,782,Estacionamento irregular,2966,Fiscalização de estacionamento irregular de veículo,Em Andamento,-43.2007734,-22.9862043,2025-12-01 04:25:00,,,3,H,F,A Vencer (No Prazo),Não Encerrado,Andamento,,0,"Descrição do cidadão: Moto continua no mesmo local, sobre a calçada. ANEXOS: https://datametricapcrj.zendesk.com/attachments/token/SMX8zqYPhlKAK6Bf6ex6aXx5t/?name=17645630852741153669218568466078.jpg || https://datametricapcrj.zendesk.com/attachments/token/fbT94HBoUcUcyc0ZYWi8yWqp3/?name=20251201_002512.heic >> ",2025-12-01 05:07:22.860000+00:00,2025-12-01 01:57:33,2025-12-01,2025-12
+22697410,13,2025-12-01 01:34:03,2025-12-01 02:04:07,144,5,23697,170,70,GM-RIO - Guarda Municipal do Rio de Janeiro,26,false,Serviço,782,Estacionamento irregular,2966,Fiscalização de estacionamento irregular de veículo,Não constatado,,,2025-12-01 04:34:00,,,3,H,F,A Vencer (No Prazo),Encerrado,Não constatado,,0,"Estacionamento de carros em calçadas pelo 178, 168 177, e acima na via.",2025-12-01 05:07:22.860000+00:00,2025-12-01 02:04:38,2025-12-01,2025-12
+22697413,13,2025-12-01 01:43:22,2025-12-01 02:04:51,144,5,2451,238,70,GM-RIO - Guarda Municipal do Rio de Janeiro,26,false,Serviço,782,Estacionamento irregular,2966,Fiscalização de estacionamento irregular de veículo,Não constatado,,,2025-12-01 04:43:00,,,3,H,F,A Vencer (No Prazo),Encerrado,Não constatado,,0,Veiculo fiat obstrui calçada a dias e pedestres e ciclistas estão correndo risco. Entregadores de bike já tiveram quedas aí.,2025-12-01 05:07:22.860000+00:00,2025-12-01 02:05:39,2025-12-01,2025-12
+22697416,13,2025-12-01 01:50:20,2025-12-01 02:05:16,145,5,12286,1516,70,GM-RIO - Guarda Municipal do Rio de Janeiro,26,false,Serviço,782,Estacionamento irregular,2966,Fiscalização de estacionamento irregular de veículo,Não constatado,,,2025-12-01 04:50:00,,,3,H,F,A Vencer (No Prazo),Encerrado,Não constatado,,0,"Nesse ponto aí perto da entrada dessa rua da autoescola calçada está tampada por carro preto. Já teve pessoas caindo, principalmente deficientes.",2025-12-01 05:07:22.860000+00:00,2025-12-01 02:05:39,2025-12-01,2025-12
+22697366,28,2025-12-01 00:04:12,,141,5,134627,181,8,RIOLUZ - Companhia Municipal de Energia e Iluminação,26,false,Serviço,1,Iluminação Pública,5799,Reparo de Luminária,Aberto,,,2025-12-04 00:04:00,,,3,D,F,A Vencer (No Prazo),Não Encerrado,Andamento,,0,Reparo de luminária,2025-12-01 05:07:22.860000+00:00,2025-12-01 00:04:12,2025-12-01,2025-12
+22697375,13,2025-12-01 00:26:26,,142,5,59238,433,8,RIOLUZ - Companhia Municipal de Energia e Iluminação,26,false,Serviço,1,Iluminação Pública,5799,Reparo de Luminária,Aberto,,,2025-12-04 00:26:00,,,3,D,F,A Vencer (No Prazo),Não Encerrado,Andamento,,0,"Rio de Janeiro, 01/12/2025.
+
+COMPANHIA MUNICIPAL DE ENERGIA E ILUMINAÇÃO 
+
+Aos cuidados da Companhia Municipal de Energia e Iluminação RIOLUZ.
+
+De acordo com a Lei Federal 13.460 de 26 de junho de 2017 - Que dispõe  sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração pública.
+
+Tendo em vista o Art. 1º Esta Lei estabelece normas básicas para participação, proteção e defesa dos direitos do usuário dos serviços públicos prestados direta ou indiretamente pela administração pública,
+
+§ 1º O disposto nesta Lei aplica-se à administração pública direta e indireta da União, dos Estados, do Distrito Federal e dos Municípios, nos termos do inciso I do § 3º do art. 37 da Constituição Federal.
+
+NOTA: Nesta Lei está prevista a obrigatoriedade de divulgação de Carta de Serviços ao Usuário, que tem por objetivo informar aos cidadãos sobre os serviços prestados pelos órgãos e entidades, as formas de acesso a esses serviços, os compromissos e padrões de qualidade de atendimento ao público.
+
+Eu, Haliuc em nome da Associação de Comunicação Social Terra Brasil, usuário dos serviços públicos, venho por meio de este solicitar a Companhia Municipal de Energia e Iluminação RIOLUZ, (REPARO DE DUAS LUMINÁRIAS  e  ALINHAMENTO) nos poster alto em quadra esportiva tipo (REFLETOR LED)  em áreas de recreação infantil na Praça São Luciano.
+
+Repúdio comunitário: Foi aberto protocolo RIO-31619645-0 em 17/11/2025 1746 via telefone, as 20:07:41 tendo como resposta em 18/11/2025: Prezado Solicitante, informamos que a sua solicitação foi agendada para execução no dia 29/11/2025. Para agilizar o atendimento, as novas solicitações de manutenção de iluminação pública para este logradouro também poderão ser encaminhadas diretamente à Associação de Moradores de sua comunidade. Atenciosamente, Companhia Municipal de Energia e Iluminação - RIOLUZ.  OK!!!!! A Associação de Moradores local adverte: Até agora nada!!!!! Porquê?????
+
+Nota: a Praça São Luciano situa-se na Rua Santa Márcia nº433 no final da Rua Rio da Prata em Bangu / Senador Camará).
+
+Sem mais para o momento, no aguardo de suas expectativas... Aproveitamos a oportunidade para reiterar a Conceituada da Companhia Municipal de Energia e Iluminação Rio luz  o Protesto de nossa mais alta estima consideração.
+
+Dúvidas - Claudio Haliuc  - 021-99711-2676.
+Relações Públicas da Associação de Comunicação Social Terra Brasil  / RJ.",2025-12-01 05:07:22.860000+00:00,2025-12-01 00:26:27,2025-12-01,2025-12
+22697379,13,2025-12-01 00:32:49,,5,1,61135,,8,RIOLUZ - Companhia Municipal de Energia e Iluminação,26,false,Serviço,1,Iluminação Pública,5799,Reparo de Luminária,Aberto,,,2025-12-04 00:32:00,,,3,D,F,A Vencer (No Prazo),Não Encerrado,Andamento,,0,"Descrição do cidadão: Já faz alguns dias que os postes da Rua Gonçalves Dias estão completamente apagados, aumentando a sensação de insegurança!
+
+Do número 46 até a Rua da Carioca, breu total. A foto anexada está no modo noturno, por isso aparenta ter alguma iluminação.. ANEXOS: https://datametricapcrj.zendesk.com/attachments/token/3vgZqoOeaVueOs7t1UntODuPP/?name=IMG_7055.jpeg >> ",2025-12-01 05:07:22.860000+00:00,2025-12-01 00:32:50,2025-12-01,2025-12
+22697394,13,2025-12-01 00:56:18,,141,5,22251,1077,8,RIOLUZ - Companhia Municipal de Energia e Iluminação,26,false,Serviço,1,Iluminação Pública,5799,Reparo de Luminária,Aberto,-43.4769661,-22.8806075,2025-12-04 00:56:00,,,3,D,F,A Vencer (No Prazo),Não Encerrado,Andamento,,0,"Rio de Janeiro, 01/12/2025.
+
+COMPANHIA MUNICIPAL DE ENERGIA E ILUMINAÇÃO 
+
+Aos cuidados da Companhia Municipal de Energia e Iluminação RIOLUZ.
+
+De acordo com a Lei Federal 13.460 de 26 de junho de 2017 - Que dispõe  sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração pública.
+
+Tendo em vista o Art. 1º Esta Lei estabelece normas básicas para participação, proteção e defesa dos direitos do usuário dos serviços públicos prestados direta ou indiretamente pela administração pública,
+
+§ 1º O disposto nesta Lei aplica-se à administração pública direta e indireta da União, dos Estados, do Distrito Federal e dos Municípios, nos termos do inciso I do § 3º do art. 37 da Constituição Federal.
+
+NOTA: Nesta Lei está prevista a obrigatoriedade de divulgação de Carta de Serviços ao Usuário, que tem por objetivo informar aos cidadãos sobre os serviços prestados pelos órgãos e entidades, as formas de acesso a esses serviços, os compromissos e padrões de qualidade de atendimento ao público.
+
+Eu, Haliuc em nome da Associação de Comunicação Social Terra Brasil, usuário dos serviços públicos, venho por meio de este solicitar a Companhia Municipal de Energia e Iluminação RIOLUZ, (REPARO DE LUMINÁRIA APAGADA NO LOCAL) nos poster alto tipo (REFLETOR LED)  Rua da Feira em Bangu (POSTO DE COMBUSTIVÉL OXALÁ).
+
+REPUDIO COMUNITÁRIO: Foi aberto protocolo RIO-31633873-5 em 17/11/2025 1746 via telefone, as 20:09:03 tendo como resposta em 18/11/2025: Essa foi pior!!!!! Prezado Solicitante, informamos que sua solicitação foi atendida!!!! Atenciosamente, Companhia Municipal de Energia e Iluminação - RIOLUZ. É algum tipo de FAKE NEWS ou INCOMPETÊNCIA????? A luminária continua apagada!!!!! Para agilizar o atendimento, as novas solicitações de manutenção de iluminação pública para este logradouro também poderão ser encaminhadas diretamente à Associação de Moradores de sua comunidade. Atenciosamente, Companhia Municipal de Energia e Iluminação - RIOLUZ. A Associação de Moradores local adverte: OK!!!!! Até agora nada!!!!! Porquê?????
+
+Nota: A ocorrência fica na Rua da Feira, nº1077 em Bangu (POSTO DE COMBUSTIVÉL OXALÁ), no final da Rua Urucum.
+
+Sem mais para o momento, no aguardo de suas expectativas... Aproveitamos a oportunidade para reiterar a Conceituada da Companhia Municipal de Energia e Iluminação Rio luz  o Protesto de nossa mais alta estima consideração.
+
+Dúvidas - Claudio Haliuc  - 021-99711-2676.
+Relações Públicas da Associação de Comunicação Social Terra Brasil  / RJ.",2025-12-01 05:07:22.860000+00:00,2025-12-01 00:56:19,2025-12-01,2025-12
+22697402,28,2025-12-01 01:18:46,,128,4,213926,200,8,RIOLUZ - Companhia Municipal de Energia e Iluminação,26,false,Serviço,1,Iluminação Pública,5799,Reparo de Luminária,Aberto,-43.3608066,-22.9893943,2025-12-04 01:18:00,,,3,D,F,A Vencer (No Prazo),Não Encerrado,Andamento,,0,Reparo de luminária,2025-12-01 05:07:22.860000+00:00,2025-12-01 01:18:47,2025-12-01,2025-12
+22697409,11,2025-12-01 01:32:29,,141,5,165696,430,8,RIOLUZ - Companhia Municipal de Energia e Iluminação,26,false,Serviço,1,Iluminação Pública,5799,Reparo de Luminária,Aberto,-43.460645,-22.8558758,2025-12-04 01:32:00,,,3,D,F,A Vencer (No Prazo),Não Encerrado,Andamento,,0,Descrição do cidadão: A lâmpada não acende. ANEXOS: https://datametricapcrj.zendesk.com/attachments/token/a55JWdrfuBnihtO4WjF92g83t/?name=video-1408321659219737369.mp4 >> ,2025-12-01 05:07:22.860000+00:00,2025-12-01 01:32:30,2025-12-01,2025-12
